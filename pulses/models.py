@@ -13,7 +13,7 @@ class Pulse(models.Model):
     name = models.CharField(max_length=100, blank=True, default='')   
     type = models.CharField(choices=TYPE_CHOICES, default='Primitive', max_length=100)
     maximum_rabi_rate = models.PositiveIntegerField(default=0, validators=[MaxValueValidator(20),])
-    polar_angle = models.CharField(max_length=100, blank=True, default='')
+    polar_angle = models.DecimalField(decimal_places=1,max_digits=2, default="0.1")
 
     class Meta:
         ordering = ('created',)
