@@ -9,6 +9,7 @@ verify_ssl = true
 django = "*"
 djangorestframework = "*"
 pygments = "*"
+psycopg2 = "*"
 
 [requires]
 python_version = "3.6"
