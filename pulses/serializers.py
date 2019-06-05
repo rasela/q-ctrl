@@ -6,5 +6,5 @@ class PulseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Pulse
-        fields = ('id', 'name', 'type', 'maximum_rabi_rate',
+        fields = ('name', 'type', 'maximum_rabi_rate',
                   'polar_angle', )

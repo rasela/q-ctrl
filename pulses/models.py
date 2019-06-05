@@ -4,11 +4,11 @@ from django.core.validators import MinValueValidator
 
 class Pulse(models.Model):
     TYPE_CHOICES = (
-        ('Primitive', 'Primitive'),
-        ('CORPSE', 'CORPSE'),
-        ('Gaussian', 'Gaussian'),
-        ('CinBB', 'CinBB'),
-        ('CinSK', 'CinSK'),
+        ('primitive', 'Primitive'),
+        ('corpse', 'CORPSE'),
+        ('gaussian', 'Gaussian'),
+        ('cinbb', 'CinBB'),
+        ('cinsk', 'CinSK'),
     )
     created = models.DateTimeField(auto_now_add=True)
     name = models.CharField(max_length=100, blank=True, default='')   
