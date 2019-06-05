@@ -10,4 +10,5 @@ python manage.py runserver
 ## Endpoint to test the functionality
 
 https://localhost-rasela-tharaka-1.paiza-user.cloud:8000/pulses/
+https://localhost-devices-rasela-1.paiza-user.cloud:8000/pulses/
 
