@@ -82,6 +82,7 @@ WSGI_APPLICATION = 'challenge.wsgi.application'
 #    }
 #}
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -90,6 +91,17 @@ DATABASES = {
         'PASSWORD': 'dbuser',
         'HOST': 'localhost',
         'PORT': '',
+    }
+}
+"""
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dftv5npudmumm4',
+        'USER': 'yymuasispriknq',
+        'PASSWORD': '38bef0cf1c5f849be5554f881d158c3e23d55d297f7efbfca872562cb679f3c8',
+        'HOST': 'ec2-107-20-155-148.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
